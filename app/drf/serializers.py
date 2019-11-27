@@ -11,7 +11,7 @@ from rest_framework import serializers
                 'Groups',
             ]
 
-    class Group_Serilializer(serializers.HyperlinkedModelSerialzer ):   
+    class Group_Serilializers(serializers.HyperlinkedModelSerialzer ):   
 	    class Meta:
 		    model = Group 
 		    fields = [
